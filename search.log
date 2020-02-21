@@ -1,0 +1,10 @@
+ImmutableMultiDict([('phrase', 'asdf'), ('letters', 'adsf')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36|{'s', 'f', 'a', 'd'}
+ImmutableMultiDict([('phrase', 'Hello world'), ('letters', 'My life')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36|{' ', 'l', 'e'}
+ImmutableMultiDict([('phrase', 'Hello world'), ('letters', 'My life')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36|{'e', 'l', ' '}
+ImmutableMultiDict([('phrase', 'adsf'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36|{'a'}
+ImmutableMultiDict([('phrase', 'asdf'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36|{'a'}
+ImmutableMultiDict([('phrase', '<p>Helloworld</p>'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36|{'e', 'o'}
+ImmutableMultiDict([('phrase', '" <p>Helloworld</p>'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36|{'e', 'o'}
+ImmutableMultiDict([('phrase', 'aeiou'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36|{'o', 'e', 'i', 'a', 'u'}
+ImmutableMultiDict([('phrase', 'aeiou'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36|{'u', 'e', 'a', 'o', 'i'}
+ImmutableMultiDict([('phrase', 'asdfsdfasdf'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36|{'a'}
